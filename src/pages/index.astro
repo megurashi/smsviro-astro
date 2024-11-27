@@ -1,0 +1,20 @@
+---
+import SendSms from '../components/SendSms.svelte'
+import '../styles/global.css'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Kirim SMS</title>
+	</head>
+	<body>
+		<div class="bigtitle">
+		<h1>Kirim SMS</h1>
+		</div>
+		<SendSms client:load/>
+	</body>
+</html>
